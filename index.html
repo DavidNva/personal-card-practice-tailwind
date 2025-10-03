@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>David - Portafolio Card</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body
+    class="max-w-xl mx-auto min-h-dvh bg-gradient-to-b from-black via-sky-950 to-gray-800"
+  >
+    <header class="text-white flex-col justify-center items-center text-center">
+      <div class="flex justify-center items-center pt-8">
+        <img
+          alt="Deiv en el parque"
+          src="./assets/perfil_original.webp"
+          class="h-[50vh] object-cover mask-radial-at-center mask-radial-from-45% mask-radial-to-70% animate-pulse-fade-in"
+        />
+      </div>
+
+      <header class="flex flex-col justify-center items-center mb-8 -mt-2">
+        <span
+          class="text-sky-400 text-xl font-mono px-3 py-1 border border-sky-500/50 rounded-full flex items-center justify-center shadow-sm bg-black/60 cursor-pointer z-10"
+          >@david.nva4
+          <svg
+            class="ml-1 w-5 h-5 text-sky-400 inline"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            aria-hidden="true"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707a1 1 0 00-1.414-1.414L9 11.172l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </span>
+        <h1 class="text-3xl font-extrabold leading-tight mt-1 font-display">
+          David Nava Garcia
+        </h1>
+      </header>
+      <section class="flex gap-2 justify-center">
+        <a
+          class="bg-purple-100 p-2 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
+          href="https://github.com/DavidNva"
+          target="_blank"
+          aria-label="GitHub"
+          title="Ir a GitHub de David"
+        >
+          <svg width="28" height="28">
+            <use xlink:href="./assets/sprite.svg#github"></use>
+          </svg>
+        </a>
+        <a
+          class="bg-purple-100 p-2 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
+          href="https://www.linkedin.com/in/david-nava-garcia/"
+          target="_blank"
+          aria-label="Linkedin"
+          title="Ir a Linkedin de David"
+        >
+          <svg width="28" height="28">
+            <use xlink:href="./assets/sprite.svg#linkedin"></use>
+          </svg>
+        </a>
+
+        <a
+          class="bg-purple-100 p-2 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
+          href="https://x.com/?lang=es"
+          target="_blank"
+          aria-label="twitter"
+          title="Ir a twitter de David"
+        >
+          <svg width="28" height="28">
+            <use xlink:href="./assets/sprite.svg#twitter"></use>
+          </svg>
+        </a>
+      </section>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
+</html>
