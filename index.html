@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>David - Portafolio Card</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
+     <link rel="stylesheet" href="assets/output.css">
   </head>
   <body
     class="max-w-xl mx-auto min-h-dvh bg-gradient-to-b from-black via-sky-950 to-gray-800"
   >
-    <header class="text-white flex-col justify-center items-center text-center">
-      <div class="flex justify-center items-center pt-8">
+    <header class="flex-col items-center justify-center text-center text-white">
+      <div class="flex items-center justify-center pt-8">
         <img
           alt="Deiv en el parque"
           src="./assets/perfil_original.webp"
@@ -18,12 +19,12 @@
         />
       </div>
 
-      <header class="flex flex-col justify-center items-center mb-8 -mt-2">
+      <header class="flex flex-col items-center justify-center mb-8 -mt-2">
         <span
-          class="text-sky-400 text-xl font-mono px-3 py-1 border border-sky-500/50 rounded-full flex items-center justify-center shadow-sm bg-black/60 cursor-pointer z-10"
+          class="z-10 flex items-center justify-center px-3 py-1 font-mono text-xl border rounded-full shadow-sm cursor-pointer text-sky-400 border-sky-500/50 bg-black/60"
           >@david.nva4
           <svg
-            class="ml-1 w-5 h-5 text-sky-400 inline"
+            class="inline w-5 h-5 ml-1 text-sky-400"
             fill="currentColor"
             viewBox="0 0 20 20"
             aria-hidden="true"
@@ -35,13 +36,13 @@
             />
           </svg>
         </span>
-        <h1 class="text-3xl font-extrabold leading-tight mt-1 font-display">
+        <h1 class="mt-1 text-3xl font-extrabold leading-tight font-display">
           David Nava Garcia
         </h1>
       </header>
-      <section class="flex gap-2 justify-center">
+      <section class="flex justify-center gap-2">
         <a
-          class="bg-purple-100 p-2 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
+          class="flex items-center justify-center p-2 transition-transform bg-purple-100 rounded-full size-12 sm:size-16 hover:scale-110"
           href="https://github.com/DavidNva"
           target="_blank"
           aria-label="GitHub"
@@ -52,7 +53,7 @@
           </svg>
         </a>
         <a
-          class="bg-purple-100 p-2 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
+          class="flex items-center justify-center p-2 transition-transform bg-purple-100 rounded-full size-12 hover:scale-110"
           href="https://www.linkedin.com/in/david-nava-garcia/"
           target="_blank"
           aria-label="Linkedin"
@@ -64,7 +65,7 @@
         </a>
 
         <a
-          class="bg-purple-100 p-2 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
+          class="flex items-center justify-center p-2 transition-transform bg-purple-100 rounded-full size-12 hover:scale-110"
           href="https://x.com/?lang=es"
           target="_blank"
           aria-label="twitter"
@@ -75,6 +76,12 @@
           </svg>
         </a>
       </section>
+      <!-- 
+      En tailwind cuando queramos espeficar algun valor, pixeles, valores, colores,etc. que no tengamos ya definidos, se hace con un -[] y dentro de los corchetes se pone el nuevo valor.  -->
+      <p class="text-[#438ed3]" text-center mt-4 text-sm>
+        Desarrollador de sofware .NET FUllStack. Especializado en tecnologías
+        .NET, C#, ASP.NET, React, desarrollo de APIs.
+      </p>
     </header>
     <main></main>
     <footer></footer>

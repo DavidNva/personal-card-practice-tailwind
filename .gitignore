@@ -1,0 +1,77 @@
+# ==========================
+# 📦 Node.js / npm
+# ==========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ==========================
+# ⚙️ Build / Compilación
+# ==========================
+dist/
+build/
+public/build/
+.temp/
+.tmp/
+.cache/
+*.log
+
+# ==========================
+# 🧩 Tailwind CSS / PostCSS
+# ==========================
+*.css.map
+*.min.css.map
+.postcss-cache/
+tailwind.config.js~
+tailwind.config.cjs~
+tailwind.config.mjs~
+
+# ==========================
+# 🧱 IDE / Editor
+# ==========================
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ==========================
+# ⚡ Sistema operativo
+# ==========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================
+# 🧪 Tests / Coverage
+# ==========================
+coverage/
+*.lcov
+
+# ==========================
+# 🚀 Entornos locales
+# ==========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ==========================
+# 📸 Archivos temporales
+# ==========================
+*.tmp
+*.swp
+*.bak
+*.log
+*.pid
+*.seed
+*.tgz
+
+# ==========================
+# ⚙️ Configs opcionales
+# ==========================
+*.lock
+*.cache
+*.eslintcache
