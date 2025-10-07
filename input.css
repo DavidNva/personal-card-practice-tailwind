@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+@theme {
+  --color-primary: #0070ba;
+  --color-secondary: #f5f5f5;
+  --color-accent: #ff6b00;
+  --font-family-sans: 'Inter', sans-serif;
+  --font-family-display: 'Playfair Display', serif;
+  --border-radius-default: 0.5rem;
+  --shadow-default: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  /*Breakpoints. Este seria como para */
+  --breakpoint-xs: 350px;
+}
+
+/*En tailwidn podemos usar una utilidad que se llama @apply donde directamente podemos utilizar las clases de tailwind y aplicarlas a una clase de css. Por ejemplo nuestros iconos ponemos. */
+.social-button{
+  @apply flex items-center justify-center p-2 transition-transform rounded-full size-12 xs:size-16 hover:scale-110
+}
