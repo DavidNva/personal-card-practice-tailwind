@@ -8,7 +8,8 @@
   --font-family-display: 'Playfair Display', serif;
   --border-radius-default: 0.5rem;
   --shadow-default: 0 4px 6px rgba(0, 0, 0, 0.1);
-
+  --color-html: #E44D26;
+  --color-js:#F0DB4F;
   /*Breakpoints. Este seria como para */
   --breakpoint-xs: 350px;
 }
