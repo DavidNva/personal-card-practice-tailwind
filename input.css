@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@font-face{
+  font-family: 'Inter';
+  src: url('/assets/fonts/inter.woff2') format('woff2');
+  font-weight: 100 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme {
   --color-primary: #0070ba;
   --color-secondary: #f5f5f5;
@@ -12,6 +20,9 @@
   --color-js:#F0DB4F;
   /*Breakpoints. Este seria como para */
   --breakpoint-xs: 350px;
+
+  /* --font-sans: 'Inter', sans-serif; */
+  --font-display: 'Inter', serif;
 }
 
 /*En tailwidn podemos usar una utilidad que se llama @apply donde directamente podemos utilizar las clases de tailwind y aplicarlas a una clase de css. Por ejemplo nuestros iconos ponemos. */
